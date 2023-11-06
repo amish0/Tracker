@@ -28,7 +28,9 @@ print(tracking_results)
 
 - `Tracker`: This class will initialize the tracker with the given tracker_type and tracker parameters from [corresponding yaml](tracker/cfg/*.yaml) file. __call__ will take the detections and return the tracking results. Please check the [tracker.py](tracker/tracker.py) for more details.
     - arguments:
-        @param detections parameters in the format 
+    
+        detections parameters in the format 
+
                 if tracker_type == 'bytetrack' or tracker_type == 'botsort':
                     detections: Result class with following attributes
                         class Result:
