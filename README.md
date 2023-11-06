@@ -1,23 +1,7 @@
 # Tracker
 This package is an collection of three type of tracker. `TRACKER_MAP = {'bytetrack': BYTETracker, 'botsort': BoTSORT, 'sort': Sort}`
 
-
-## Installation
-<details close>
-<summary>Install</summary>
-Clone repo and install [requirements.txt](requirements.txt)
-
-```bash
-git https://github.com/amish0/Tracker.git
-cd Tracker
-pip install -r requirements.txt
-```
-</details>
-
 ## Example
-<details close>
-<summary>Example</summary>
-
 <details close>
 <summary>Tracker class can be used to track the objects in a video.</summary> Please check the [tracker.py](tracker/tracker.py) for more details.
 
@@ -37,8 +21,6 @@ tracking_results = tracker(dets)
 # print tracking results
 print(tracking_results)
 ```
-</details>
-
 </details>
 
 <details close>
@@ -143,16 +125,27 @@ It will create build in your dist directory. if dist is not present it will crea
  python setup.py install
  ```
 
- If build has been created, please follow the instruction below
+ If you have created an build, please follow the instruction below
  ```
  cd dist
  pip install package_name*.whl
  ```
  Please replace "package_name*.whl" with .whl file present in dist directory
 
+## Work from source code
+Clone repo and install [requirements.txt](requirements.txt)
+
+```bash
+git https://github.com/amish0/Tracker.git
+cd Tracker
+pip install -r requirements.txt
+```
+
 <details open>
 <summary>References</summary>
     - SORT: https://github.com/abewley/sort
+
     - Byte Track: https://github.com/ifzhang/ByteTrack
+
     - BoT-SORT: https://github.com/NirAharon/BoT-SORT
 </details>
