@@ -143,11 +143,9 @@ cd Tracker
 pip install -r requirements.txt
 ```
 
-<details open>
-<summary>References</summary>
+# References
     - SORT: https://github.com/abewley/sort
 
     - Byte Track: https://github.com/ifzhang/ByteTrack
 
     - BoT-SORT: https://github.com/NirAharon/BoT-SORT
-</details>
